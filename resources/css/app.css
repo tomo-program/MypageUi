@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+}
+
+#app {
+  margin: 0;
+}
+
+.headerColor {
+  color: #64b5f6;
+}
+
+th {
+  color: #64b5f6;
+  background-color: black;
+  font-weight: bold;
+}
+
+.back-color {
+  background-color: black;
+  border-radius: 4px;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+
+.circle {
+  text-align: center;
+  width: 600px;
+  height: 60px;
+  background-color: #2190f2;
+  border-radius: 50%;
+}
+
+:root {
+  --base-width: 50%;
+}
+
+.pie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+  height: 300px;
+  -webkit-box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+  background-image: radial-gradient(#ffffff 30%, transparent 31%), conic-gradient(#2190f2 0% var(--base-width), #000000 var(--base-width) 100%);
+  border-radius: 50%;
+}
+
+.pie .main-text {
+  font-size: 26px;
+  font-weight: 700;
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
+.pie .sub-text {
+  font-size: 12px;
+  font-weight: 300;
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
+.home_data .cirle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  width: 220px;
+  height: 220px;
+  -webkit-box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+  background-image: radial-gradient(#ffffff 30%, transparent 31%), conic-gradient(#2190f2 0% var(--base-width), #000000 var(--base-width) 100%);
+  border-radius: 50%;
+}
+
+.home_data .main-text {
+  font-size: 18px;
+  font-weight: 700;
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
+.home_data .sub-text {
+  font-size: 12px;
+  font-weight: 300;
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
+.home_fee .double_line {
+  display: inline-block;
+  border-bottom: double 5px #2190f2;
+}
+
+.double_line {
+  display: inline-block;
+  border-bottom: double 5px #2190f2;
+}
+
+.hover-blue {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  color: #ffffff;
+}
+
+.hover-blue:hover {
+  color: #2190f2;
+}
+
+.btn {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  display: inline-block;
+  background-color: #000000;
+  height: 40px;
+  width: 80%;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  color: #2190f2;
+}
+
+.card {
+  position: relative;
+}
+
+.homeButton {
+  position: absolute;
+  bottom: -12%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) scale(1.2);
+          transform: translateX(-50%) scale(1.2);
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+}
+
+.homeButton:hover {
+  -webkit-transform: translateX(-50%) scale(1);
+          transform: translateX(-50%) scale(1);
+}
+
+@media (min-width: 600px) {
+  .content {
+    padding-left: 256px;
+  }
+}
+
+.inquiryContainer {
+  position: relative;
+}
+
+/**************************************
+*Table                                *
+***************************************/
+.v-application a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.v-application a:hover {
+  color: #2190f2;
+}
+/*# sourceMappingURL=app.css.map */
